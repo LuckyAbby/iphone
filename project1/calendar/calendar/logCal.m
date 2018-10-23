@@ -1,6 +1,6 @@
 //
 //  logCal.m
-//  cal
+//  calendar
 //
 //  Created by abby on 2018/10/20.
 //  Copyright © 2018 abby. All rights reserved.
@@ -60,11 +60,11 @@ char *weekDes[7] = {"Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"};
         }
         printf("  ");
     }
-     printf("\n");
+    printf("\n");
     while(notLogMaxNum) {
         for(int i = startIndex - 1; i < endIndex; i++) {
             if (startDayIndex[i] == 0) {
-              startDayIndex[i] = [self weakDayForFirstDayOfMonth:year :i+1 :startDay[i]] + 1;
+                startDayIndex[i] = [self weakDayForFirstDayOfMonth:year :i+1 :startDay[i]] + 1;
             }
             for (int j = 1; j < startDayIndex[i]; j++) {
                 printf("   ");
@@ -94,7 +94,7 @@ char *weekDes[7] = {"Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"};
                 break;
             }
         }
-       
+        
     }
 }
 

@@ -1,6 +1,6 @@
 //
 //  getCurrentMonthAndYear.h
-//  cal
+//  calendar
 //
 //  Created by abby on 2018/10/22.
 //  Copyright © 2018 abby. All rights reserved.

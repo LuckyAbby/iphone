@@ -51,6 +51,8 @@ int main(int argc, const char * argv[]) {
                 printf("cal: month in range 1..12\n");
                 [calendar logUsage];
             }
+        }else {
+            [calendar logUsage];
         }
     }
     return 0;
